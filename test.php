@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = "smpg.sjkim@google.com";
+$to = "sjkim1964@naver.com";
 $subject = "Mail from website";
 
 $headers = "From: ".$name. "\r\n" .
@@ -14,6 +14,6 @@ if($email!=NULL) {
   mail($to, $subject, $txt, $headers);
 }
 
-header('Location: THankyou.html');
+header('Location: Thankyou.html');
 
 ?>
